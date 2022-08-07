@@ -14,23 +14,19 @@ public class SupClass {
         this.length = length;
     }
 
-// --Commented out by Inspection START (07/08/2022 2:43 PM):
-//    public double getWidth() {
-//        return width;
-//    }
-// --Commented out by Inspection STOP (07/08/2022 2:43 PM)
 
-// --Commented out by Inspection START (07/08/2022 2:43 PM):
-//    public void setWidth(double width) {
-//        this.width = width;
-//    }
-//
-//// --Commented out by Inspection START (07/08/2022 2:43 PM):
-// --Commented out by Inspection STOP (07/08/2022 2:43 PM)
-//    public double getSides() {
-//        return sides;
-//    }
-// --Commented out by Inspection STOP (07/08/2022 2:43 PM)
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
+    public double getSides() {
+        return sides;
+    }
+
 
     public void setSides(double sides) {
         this.sides = sides;
